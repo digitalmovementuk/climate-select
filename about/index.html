@@ -37,8 +37,8 @@
     ]
   }
   </script>
-  <script type="module" crossorigin src="../assets/main-C5L538M9.js"></script>
-  <link rel="stylesheet" crossorigin href="../assets/main-DswLPyRt.css">
+  <script type="module" crossorigin src="../assets/main-CPRUP1mx.js"></script>
+  <link rel="stylesheet" crossorigin href="../assets/main-BhN0vSeu.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -87,21 +87,28 @@
     <div class="hero-wrap">
       <div class="container hero-wrap__grid hero-wrap__grid--media">
         <section class="hero hero--light" aria-labelledby="hero-title">
-          <svg class="hero-wall hero-wall--strip" viewBox="0 0 320 480" aria-hidden="true" focusable="false">
+          <svg class="hero-wall hero-wall--strip" viewBox="0 0 264 2400" preserveAspectRatio="xMidYMin slice" aria-hidden="true" focusable="false">
+  <!-- Desktop: the wall in elevation, 1 unit = 1px. x 0 = 56px inside the copy column's right edge;
+       wall x 72-168 (96px, 16px off the copy); the form card starts at x 216 (48px of outside).
+       Cool air (blue) comes in from outside through the upper vent; warm air (orange) leaves through
+       the lower vent and passes behind the card. The condenser ghost hangs outside between them. -->
   <defs>
-    <pattern id="hw-brick-about" width="40" height="20" patternUnits="userSpaceOnUse">
-      <g stroke="rgba(4,36,81,.11)" stroke-width="1.5"><line x1="0" y1="10" x2="40" y2="10"/><line x1="0" y1="20" x2="40" y2="20"/><line x1="20" y1="0" x2="20" y2="10"/><line x1="0" y1="10" x2="0" y2="20"/></g>
+    <pattern id="hw-brick-strip-about" width="96" height="48" patternUnits="userSpaceOnUse">
+      <g fill="none" stroke-width="2" style="stroke: var(--line-strong, #AEBBCD)">
+        <line x1="0" y1="24" x2="96" y2="24"/><line x1="0" y1="48" x2="96" y2="48"/>
+        <line x1="48" y1="0" x2="48" y2="24"/>
+        <line x1="24" y1="24" x2="24" y2="48"/><line x1="72" y1="24" x2="72" y2="48"/>
+      </g>
     </pattern>
   </defs>
-  <rect x="128" y="0" width="34" height="480" fill="#DCE6F2"/>
-  <rect x="128" y="0" width="34" height="480" fill="url(#hw-brick-about)"/>
-  <rect x="128" y="186" width="34" height="12" rx="3" fill="#BFD0E4"/>
-  <rect x="128" y="236" width="34" height="12" rx="3" fill="#BFD0E4"/>
+  <rect x="72" y="0" width="96" height="2400" fill="#DCE6F2"/>
+  <rect x="72" y="0" width="96" height="2400" fill="url(#hw-brick-strip-about)"/>
+  <path d="M73 0 V2400 M167 0 V2400" fill="none" stroke-width="2" style="stroke: var(--line-strong, #AEBBCD)"/>
   
-  <path class="hw-ribbon" d="M330 128 C 262 128, 226 192, 162 192 L 100 192" fill="none" stroke="#0768AD" stroke-width="10" stroke-linecap="round" opacity=".9"/>
-  <path class="hw-ribbon hw-ribbon--warm" d="M100 242 L 162 242 C 226 242, 262 310, 330 318" fill="none" stroke="#EB6E3C" stroke-width="10" stroke-linecap="round" opacity=".9"/>
-  <g class="hw-vent"><circle cx="162" cy="192" r="13" fill="#F3F7FB" stroke="#0768AD" stroke-width="4"/><circle cx="162" cy="192" r="5.5" fill="none" stroke="#0768AD" stroke-width="3"/></g>
-  <g class="hw-vent hw-vent--warm"><circle cx="162" cy="242" r="13" fill="#F3F7FB" stroke="#EB6E3C" stroke-width="4"/><circle cx="162" cy="242" r="5.5" fill="none" stroke="#EB6E3C" stroke-width="3"/></g>
+  <path class="hw-ribbon" d="M189 196 C155 196 154 256 120 256 L64 256" fill="none" stroke="#0768AD" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <path class="hw-ribbon hw-ribbon--warm" d="M64 344 L120 344 C158 344 166 424 256 428" fill="none" stroke="#EB6E3C" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <g class="hw-vent"><circle cx="120" cy="256" r="26.5" fill="#FFFFFF" stroke="#0768AD" stroke-width="3"/><circle cx="120" cy="256" r="9.5" fill="none" stroke="#0768AD" stroke-width="2.5"/></g>
+  <g class="hw-vent hw-vent--warm"><circle cx="120" cy="344" r="26.5" fill="#FFFFFF" stroke="#EB6E3C" stroke-width="3"/><circle cx="120" cy="344" r="9.5" fill="none" stroke="#EB6E3C" stroke-width="2.5"/></g>
   <circle class="hw-p hw-p--cool" r="4.5" fill="#CFE3F3" style="--d:0s"/>
   <circle class="hw-p hw-p--cool" r="3.5" fill="#CFE3F3" style="--d:-1.6s"/>
   <circle class="hw-p hw-p--cool" r="4.5" fill="#CFE3F3" style="--d:-3.1s"/>
@@ -110,6 +117,11 @@
   <circle class="hw-p hw-p--warm" r="4.5" fill="#FBD5C0" style="--d:-3.9s"/>
 </svg>
 <svg class="hero-wall hero-wall--band" viewBox="0 0 640 96" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+  <defs>
+    <pattern id="hw-brick-about" width="40" height="20" patternUnits="userSpaceOnUse">
+      <g stroke="rgba(4,36,81,.11)" stroke-width="1.5"><line x1="0" y1="10" x2="40" y2="10"/><line x1="0" y1="20" x2="40" y2="20"/><line x1="20" y1="0" x2="20" y2="10"/><line x1="0" y1="10" x2="0" y2="20"/></g>
+    </pattern>
+  </defs>
   <rect x="0" y="12" width="640" height="72" rx="8" fill="#DCE6F2"/>
   <rect x="0" y="12" width="640" height="72" rx="8" fill="url(#hw-brick-about)"/>
   
@@ -253,10 +265,21 @@
         <div class="book__aside">
           <h2 id="book-title">Get in Touch</h2>
           <p class="lead">Reach our expert team to book your property survey or discuss heating and cooling equipment.</p>
-          <div class="contact-details">
+          <div class="contact-details contact-details--2">
             <div class="contact-details__item"><span class="contact-details__label">Telephone</span><a class="contact-details__value" href="tel:+441422485563">01422 485563</a></div>
+            <div class="contact-details__item"><span class="contact-details__label">Mobile</span><a class="contact-details__value" href="tel:+447802359416">07802 359416</a></div>
             <div class="contact-details__item"><span class="contact-details__label">E-mail</span><a class="contact-details__value" href="mailto:info@climateselect.co.uk">info@climateselect.co.uk</a></div>
             <div class="contact-details__item"><span class="contact-details__label">Address</span><span class="contact-details__value contact-details__value--plain">Halifax, HX3 7LA</span></div>
+          </div>
+          <div class="book__next">
+            <h3 id="book-next-title">Our Transparent Sales Process</h3>
+            <ol class="timeline" data-timeline aria-labelledby="book-next-title">
+              <div class="timeline__fill" aria-hidden="true"></div>
+              <li class="timeline__item"><span class="timeline__marker" aria-hidden="true">1</span><h4>Pre-Survey</h4><p>Contact us with your enquiry and you will be allocated a surveyor who will deal with your enquiry from start to finish.</p></li>
+              <li class="timeline__item"><span class="timeline__marker" aria-hidden="true">2</span><h4>Upfront Project Cost</h4><p>We will discuss your circumstances, advise a solution and provide an upfront project cost.</p></li>
+              <li class="timeline__item"><span class="timeline__marker" aria-hidden="true">3</span><h4>FREE (Conditions Apply) On-Site Survey</h4><p>We undertake a comprehensive on-site survey of all projects.</p></li>
+              <li class="timeline__item"><span class="timeline__marker" aria-hidden="true">4</span><h4>Delivery &amp; Installation</h4><p>Throughout this process you will be kept fully informed and updated as required.</p></li>
+            </ol>
           </div>
         </div>
         <form class="enquiry" id="enquiry" data-enquiry novalidate method="post" action="/api/enquiries" aria-labelledby="enquiry-title">
@@ -301,12 +324,7 @@
         </select>
         <p class="field__error" id="enquiry-property-error" hidden></p>
       </div>
-      
-      <div class="field field--full">
-        <label class="field__label" for="enquiry-message">Message <span class="field__optional">(optional)</span></label>
-        <textarea class="field__input field__textarea" id="enquiry-message" name="message" rows="4" maxlength="2000" aria-describedby="enquiry-message-error"></textarea>
-        <p class="field__error" id="enquiry-message-error" hidden></p>
-      </div>
+      <!-- Optional Message field (form-message.html). Left out with compact=1 (hero form) or nomessage=1 (bottom form); the Contact form keeps it. -->
       
     </div>
     <div class="field field--consent">
